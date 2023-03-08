@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=PT+Serif&display=swap');
+* {
+    margin: 0px ; 
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+#navbar {
+    background-color: rgb(63, 9, 9);
+    padding :13px 14px ;
+    font-family: 'Macondo', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#navbar #logo img {
+    height: 35px;
+    filter: invert(1);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding : 6px 10px ;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+#introSection {
+    font-family: 'PT Serif', serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center; 
+    background: center / cover no-repeat  url("/static/bg.jpg") ;
+    height: 300px ;
+    background-color: red;
+    padding-bottom: 230px;
+}   
+
+#introSection div.small {
+    font-size: 15px;
+}
+
+#missionSection {
+    height: 300px ;
+    margin : auto ;
+    width : 67% ;
+    display: block;
+   
+}
+#missionSection h2 {
+    text-align: center; 
+    padding-top: 13px;
+    font-family: 'PT Serif', serif;
+    
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 29%;
+    margin: 23px 16px;
+    height: 209px;
+}
+
+.card h3 {
+    text-align: center; 
+    
+}
+#SponsorSection {
+    height: 300px ;
+    background-color: rgb(142, 18, 18);
+}
+#SponsorSection h2 {
+    text-align: center; 
+    padding-top: 13px;
+    font-family: 'PT Serif', serif;
+    
+}
+#footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

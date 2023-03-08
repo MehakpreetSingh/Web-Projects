@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    border-bottom: 1px solid #333333;
+
+}
+.item {
+    list-style: none;
+}
+.item a {
+    text-decoration: none;
+    color:black;
+    padding : 0px 20px;
+    margin : 10px 10px ;
+}
+/* .navbar::after{
+    content: "";
+    position:relative;
+    overflow: hidden;
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    height: 10px;
+} */

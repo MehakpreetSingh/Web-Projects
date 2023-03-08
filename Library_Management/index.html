@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKGEN | Search Your books Here</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://css.gg/search.css' rel='stylesheet'>
+    <style>
+        body {
+            background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            height: 100%;
+            width: 100%;
+            color: white;
+        }
+        .container {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background: #FC354C;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            margin : auto;
+            height: 300px;
+            width: 500px;
+        }
+        .top {
+            text-align: center;
+        }
+        #search {
+            margin:0px 40px;
+        }
+        .types {
+            margin : 30px  auto ;
+        }
+        #tags{
+            display: inline;
+        }
+        #heading{
+            font-size: large;
+        }
+        #search {
+            border: 1px solid rgb(255, 255, 255 , 0.2);
+            display: block;
+            border-radius: 10px;
+            padding :10px 20px;
+            text-align: center;
+            margin : auto;
+            animation: search 3s;
+        }
+        #get {
+            display: block;
+            margin :auto auto;
+            position: relative;
+            top : 15px;
+            background: transparent;
+            border: none;
+        }
+        
+        .types{
+            border-radius: 5px;
+            width: 300px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        }
+        @keyframes search {
+            from {
+                width: 40px;
+                height: 20px;
+            }
+
+            to {
+                width :80px ;
+                height : 25px ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>COME FIND MY BOOKS</h1>
+        </div>
+        <div>
+            <h2>SEARCH HERE !!!!</h2>
+            <input type="text" placeholder="Search.." name="search" id="search" >
+            <button id="get">
+                <i class="gg-search"></i>
+            </button>
+            <div class="types">
+                <p id="heading">On the Basis:</p>  
+                <p id="tags">Author<input type="radio" name="basis"></p> 
+                <p id="tags">Title <input type="radio" name="basis"></p>
+                <p id="tags">Year <input type="radio" name="basis"></p>            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
